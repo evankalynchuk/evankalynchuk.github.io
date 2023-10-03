@@ -103,7 +103,7 @@ export class MyTable extends LitElement {
       </tr>
     `);
 
-    const headers = Object.keys(data[0]).map(header => (header == 'Item Description') ? html`<th>${header}</th>` : html`<th class="text-nowrap">${header}</th>`);
+    const headers = Object.keys(data[0]).map(header => (header == 'Item Description') ? html`<th class="text-nowrap">${header}</th>` : html`<th class="text-nowrap">${header}</th>`);
 
     const table = html`
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
