@@ -9,7 +9,7 @@ export class MyTable extends LitElement {
       description: 'Display  Repeating Section as a table.',
       iconUrl: "group-control",
       groupName: 'Repeating Section',
-      version: '3.5',
+      version: '3.7',
       properties: {
         dataobject: {
           type: 'string',
