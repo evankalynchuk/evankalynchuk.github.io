@@ -1,0 +1,18 @@
+[dir] .nx-theme-styles .nx-theme-form .form-group{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222C64
+}
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1{
+    background-color: #E32726;
+}
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-2{
+    background-color: #E32726;
+}
+
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-input-1{
+    text-transform: uppercase;
+}
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-label-1 {
+    font-size: large;
+}
