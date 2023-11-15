@@ -9,15 +9,33 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #E32726;
     border-color: #E32726;
-    color:#222C64;
+    color: whitesmoke;
 }
 [dir] .nx-theme-styles .nx-theme-form .nx-theme-input-1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#222C64;
-    text-transform: uppercase;
+}
+[dir] .nx-theme-styles .nx-theme-form .nx-theme-help-text-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#222C64;
 }
 [dir] .nx-theme-styles .nx-theme-form .nx-theme-label-1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#222C64;
     font-size: large;
+}
+[dir] .nx-theme-styles .nx-theme-form ntx-richtext-label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222C64;
+    font-size: large;
+}
+[dir] .nx-theme-styles .nx-theme-form ntx-choice{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222C64;
+    border: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-form ntx-data-lookup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222C64;
+    border: #E32726;
 }
