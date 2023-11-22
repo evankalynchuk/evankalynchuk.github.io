@@ -1,41 +1,71 @@
-
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1{
+[dir] .nx-theme-styles .nx-theme-button-1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
     background-color: #E32726;
     border-color: #E32726;
     color: whitesmoke;
 }
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-2{
+[dir] .nx-theme-styles .nx-theme-button-1:not(.nx-read-only):not(:disabled):hover {
+    background-color: #e8504f;
+}
+[dir] .nx-theme-styles .nx-theme-button-2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #E32726;
+    font-size: 15px;
     border-color: #E32726;
-    color: whitesmoke;
+    color: #E32726;
 }
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-input-1{
+[dir] .nx-theme-styles .nx-theme-button-2:not(.nx-read-only):not(:disabled):hover {
+    background-color: #f19393;
+}
+[dir] .nx-theme-styles .nx-theme-input-1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#222C64;
 }
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-help-text-1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#222C64;
-}
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-label-1 {
+[dir] .nx-theme-styles .nx-theme-label-1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#222C64;
     font-size: large;
 }
-[dir] .nx-theme-styles .nx-theme-form ntx-richtext-label{
+[dir] .nx-theme-styles .nx-theme-richtext p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #222C64;
+    color:#222C64;
     font-size: large;
 }
-[dir] .nx-theme-styles .nx-theme-form ntx-choice{
+[dir] .nx-theme-styles .nx-theme-help-text-1 label {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #222C64;
-    border: #E32726;
+    color:#222C64;
 }
-[dir] .nx-theme-styles .nx-theme-form ntx-data-lookup{
+[dir] .nx-theme-styles .form-header p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #222C64;
-    border: #E32726;
+    color:#222C64;
+    font-size: 40px;
+    font-weight: bolder;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#222C64;
+}
+[dir] .nx-theme-styles .nx-theme-richtext .cke_focus .cke_inner{
+    border-color: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-input-1:not(.nx-read-only):focus {
+    border-color: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select-focused.ng-select-opened {
+    border-color: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select-focused:not(.ng-select-opened) {
+    border-color: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select-focused .ng-dropdown-panel {
+    border-color: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select .ng-dropdown-panel .ng-dropdown-panel-items .ng-option-selected{
+    background-color: #E32726;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select .ng-dropdown-panel .ng-dropdown-panel-items .ng-option-selected:hover{
+    background-color: #e8504f;
+}
+[dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select .ng-dropdown-panel .ng-dropdown-panel-items .ng-option-marked:not(.ng-option-selected){
+    background-color: #f19393;
 }
