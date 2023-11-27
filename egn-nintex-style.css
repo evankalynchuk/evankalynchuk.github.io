@@ -24,7 +24,7 @@
 [dir] .nx-theme-styles .nx-theme-label-1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#222C64;
-    font-size: large;
+    font-size: medium;
 }
 [dir] .nx-theme-styles .nx-theme-richtext {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -33,11 +33,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#222C64;
     font-size: large;
-}
-[dir] .nx-theme-styles .small-label label {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#222C64;
-    font-size: medium;
 }
 [dir] .nx-theme-styles .nx-theme-richtext a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
