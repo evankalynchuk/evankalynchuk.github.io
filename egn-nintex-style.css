@@ -120,4 +120,25 @@
 }
 [dir] .nx-theme-styles .nx-peoplepicker-control .nx-btn-input-icon ntx-icon {
     fill: #E32726;
+
+}
+[dir] .nx-theme-styles .mat-step-header .mat-step-icon {
+    background-color: #222C64;
+}
+[dir] .nx-theme-styles .mat-step-header .mat-step-icon.mat-step-icon-selected {
+    background-color: #E32726;
+}
+[dir] .nx-theme-styles .mat-step-header .mat-step-icon.mat-step-icon-state-edit {
+    background-color: #222C64;
+}
+[dir] .nx-theme-styles .mat-step-label {
+    color: #222C64;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+[dir] .nx-theme-styles .nx-theme-heading-1 {
+    color: #222C64;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+[dir] .nx-theme-styles .mat-step-label h4.nx-theme-heading-1 {
+    font-size: 18px;
 }
