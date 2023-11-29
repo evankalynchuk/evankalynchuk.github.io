@@ -84,7 +84,8 @@
     background-color: var(--faddedRed);
 }
 [dir] .nx-theme-styles .nx-theme-ng-select-1.ng-select .ng-dropdown-panel .ng-dropdown-panel-items .ng-option-marked:not(.ng-option-selected){
-    color: var(--lightRed);
+    color: var(--blue);
+    background-color: var(--red);
 }
 [dir] .nx-theme-styles .nx-theme-checkbox-1 .nx-checkbox {
     font-family: var(--fontFamily);
